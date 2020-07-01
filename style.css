@@ -80,17 +80,21 @@ p {
 
 .info {
     text-align: center;
-    margin: 0;
     color: rgb(65, 63, 63);
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
 }
 
 .contacts {
     background-color: rgb(233, 31, 159);
-    padding: 20px 30px;
+    padding: 20px;
     width: 40%;
     position: relative;
+    top: 50px;
     left: 30%;
-    border-radius: 10px;
+    border-radius: 5px;
     color: white;
 }
 
